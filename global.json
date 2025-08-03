@@ -1,0 +1,17 @@
+{
+  "editor_paths": {
+    "cocos_creator": {"3.3.0": "/opt/CocosCreator3.3.0/CocosCreator", …},
+    "egret_wing": "/opt/EgretWing/EgretWing.exe"
+  },
+  "projects_root": "/home/dev/projects",
+  "rsync_groups": {
+    "test": {"host":"test.example.com","path":"/var/www/test","rsync":"/usr/bin/rsync"},
+    "preprod": {"host":"preprod.example.com","path":"/var/www/preprod","rsync":"/usr/local/bin/rsync"}
+  },
+  "output_root": "/home/dev/outputs",
+  "ssh_keys": [
+    {"name":"git-clone-key","path":"~/.ssh/id_rsa_git"},
+    {"name":"deploy-key","path":"~/.ssh/id_rsa_deploy"}
+  ],
+  "log_directory": "/var/log/project_manager"
+}

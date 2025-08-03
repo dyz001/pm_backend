@@ -1,0 +1,4 @@
+Django>=4.0
+djangorestframework
+channels>=4.0
+channels-redis>=4.0
